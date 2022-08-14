@@ -22,7 +22,7 @@ body {
     align-items: center;
     min-width: 300px;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
 ul {
@@ -42,12 +42,32 @@ a:hover {
 }
 
 .hero .container {
+    position: relative; 
+    height: 80%;
+    width: auto;
     display: flex;
     max-height: 600px;
     justify-content: space-around;
     padding: 20px;
     flex: 1 1 auto;
     flex-wrap: wrap;
+}
+
+.hero .container::before {    
+    content: "";
+    background-image: url(images/cheesewall.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.45;
+}
+
+.text-and-button,
+img {
+    position: relative;
 }
 
 .text-and-button {
