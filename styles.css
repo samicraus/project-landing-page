@@ -5,16 +5,16 @@ body {
     background-color: white;
 }
 
-h1 {
-    font-size: 16px;
-}
-
 .navbar,
 .hero {
     background-color: #1f2937;
     color: white;
     font-family: 'Poppins' sans-serif;
 
+}
+
+.navbar .container img {
+    max-width: 50px;
 }
 
 .navbar .container {
