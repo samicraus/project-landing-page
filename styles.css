@@ -155,5 +155,24 @@ h6 {
     font-size: 14px;
 }
 
+button {
+    background-color: aqua;
+    padding: 5px;
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(169, 241, 241);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 5px;
+}
+
 
 
